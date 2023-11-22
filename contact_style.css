@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Ressources/chiens.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
+
+.btn-outline-success{
+    color: rgb(86, 148, 67);
+    border: 2px solid rgb(86, 148, 67);
+    /* width: 90px;
+    height: 45px; */
+}
+
+.btn-outline-success:hover{
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(86, 148, 67);
+    background-color: rgb(86, 148, 67);
+    font-weight: bold;
+}
+
+/* .d-flex{
+
+} */
+
+.navbar-brand{
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times';
+    color: rgb(109, 177, 89);
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.navbar-brand:hover{
+    color: rgb(109, 177, 89);
+    font-size: 26px;
+    font-weight: bold;
+}
+
+ /* Mon formulaire de contact */
+
+.divform {
+    max-width: 700px;
+    margin: 6% auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times';
+    font-size: 37px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.divform form {
+    background-color: rgba(114, 114, 114, 0.477);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.123); */
+}
+
+.divform label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.divform input, textarea {
+    width: 95%;
+    padding: 4px;
+    border: none;
+    border-radius: 5px;
+}
+
+.qui{
+    width: 280px;
+    height: 30px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+#message{
+    font-size: 14px;
+}
+
+.sub {
+    background-color: rgb(109, 177, 89);
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 500px !important; 
+    height: 50px;
+}
+
+.sub:hover {
+    background-color: rgb(86, 148, 67);
+}

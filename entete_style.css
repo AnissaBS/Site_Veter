@@ -1,81 +1,198 @@
-
+/*
 body {
     margin: 0;
-    /* font-family: Arial, sans-serif; */
-  }
+    /* font-family: Arial, sans-serif; *//*
+}
 
-  header {
-    background-color: rgb(255, 255, 255);
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;  
-    text-decoration: none;
-    margin: 3% 8%;
-    border-radius: 30px;
-  }
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  text-decoration: none;
+  margin: 3% 8%;
+  border-radius: 30px;
+}
 
-  #titre {
-    margin: 0 2%;
-    font-family: 'Nanum Myeongjo','' ;
-  }
+#logo{
+  width: 200px;
+  position: relative;
+  top: 20px;
+}
 
-  nav {
-    display: flex;
-  }
+/* #img{
+  width: 200px;
+} *//*
 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
+#menu{
+  margin-left: 220px;
+}
 
-  li {
-    color: white;
-    margin-right: 20px;
-    position: relative;
-    text-decoration: none;
-  }
+/* #liste{
+  position: relative;
+  top: 80px;
+} *//*
 
-  li:hover ul {
-    display: block;
-    border-radius: 10px;
-  }
+nav {
+  display: flex;
+  position: absolute;
+}
 
-  ul ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: rgb(255, 255, 255);
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-  ul ul li {
-    display: block;
-    width: 150px;
-  }
+li {
+  color: white;
+  margin-right: 30px;
+  position: relative;
+  text-decoration: none;
+}
 
-  .recherche {
-    display: flex;
-    /* align-items: center; */
-    
-  }
+li:hover ul {
+  display: block;
+  border-radius: 10px;
+}
 
-  input[type="text"] {
-    padding: 6px;
-  }
+ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+}
 
-  input[type="submit"] {
-    padding: 8px 10px;
-    background-color: #ffffff;
-    color: rgb(119, 181, 100);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
+ul ul li {
+  display: block;
+  width: 150px;
+}
 
-  a{
-    color: black;
-    text-decoration: none;
-  }
+.recherche {
+  display: flex;
+}
+
+input[type="text"] {
+  padding: 7px;
+  border-radius: 10px;
+  margin-right: 4%;
+}
+
+input[type="submit"] {
+  padding: 8px 10px;
+  background-color: #e2e2e2;
+  color: rgb(100, 145, 181);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px black;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 2px 2px 3px black;
+  background-color: rgb(100, 145, 181);
+  color: white;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}*/
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  text-decoration: none;
+  margin: 3% 8%;
+  border-radius: 20px;
+  position: relative; /* Ajout de la position relative */
+}
+
+#logo {
+  width: 180px;
+  position: absolute;
+  top: 50%; /* Positionne le logo au milieu de l'élément parent (header) */
+  transform: translateY(-50%); /* Ajuste verticalement en fonction de la hauteur du logo */
+}
+
+nav {
+  display: flex;
+  margin-left: 10%;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  color: white;
+  margin-right: 30px;
+  position: relative;
+  text-decoration: none;
+}
+
+li:hover ul {
+  display: block;
+  border-radius: 10px;
+}
+
+ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+ul ul li {
+  display: block;
+  width: 150px;
+}
+
+.recherche {
+  display: flex;
+}
+
+input[type="text"] {
+  padding: 7px;
+  border-radius: 10px;
+  margin-right: 4%;
+}
+
+input[type="submit"] {
+  padding: 8px 10px;
+  background-color: #e2e2e2;
+  color: rgb(100, 145, 181);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 1px 1px 2px black;
+}
+
+input[type="submit"]:hover {
+  box-shadow: 2px 2px 3px black;
+  background-color: rgb(100, 145, 181);
+  color: white;
+}
+
+

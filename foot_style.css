@@ -1,0 +1,126 @@
+/* body{
+} */
+
+footer{
+    flex-shrink: 0;     /* Propriété qui permet d'utiliser l'espace restant par rapport à ce qu'il y a au dessus. Si la taille de l'ensemble des éléments flexibles est supérieure à la taille du conteneur, les éléments seront comprimés */
+    border-top: 1px dashed rgb(56, 99, 42);
+    background: rgb(86, 148, 67);
+    color: #ffffff;
+    /* height: 30vh; */
+}
+
+img{
+    width: 20px;
+}
+
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px 0 100px;
+}
+
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+
+
+/* Les contacts */
+.footer-contact h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-medias h3{
+    font-size: 18px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.footer-contact p{
+    font-size: 16px;
+    padding: 0;
+}
+
+
+/* Les services */
+.liste-services,
+.liste-horaires,
+.liste-medias{
+    font-size: 16px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.liste-services li{
+    padding: 2px 0;
+    list-style-type:circle;
+    margin-left: 15px;
+}
+
+.liste-services a{
+    text-decoration: none;
+    color: rgb(192, 212, 186);
+}
+
+.liste-services a:hover{
+    text-decoration: none;
+    color: rgb(224, 239, 220);
+}
+/*  Les horaires */
+.garde{
+    font-size: 12px;
+}
+
+/* Les médias */
+.liste-medias {
+    position: relative;
+    right: 10px;
+}
+
+.liste-medias img{
+    width: 25px;
+    margin: 10px 10px;
+}
+
+.liste-medias a{
+    text-decoration: none;
+    color: rgb(192, 212, 186);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+/* Media queries */
+@media screen and (max-width:1300px){
+    .contenu-footer{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc{
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){         /* Permet de sélectionner des enfants dans une liste */
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .contenu-footer{
+        width: 320px;
+    }
+    .bloc{
+        width: 300px;
+        margin: 30px;
+    }
+    .bloc:nth-child(1),
+    .bloc:nth-child(2){
+        margin-bottom: 30px;
+    }
+    .bloc:nth-child(1){
+        margin-top: 0;
+    }
+}

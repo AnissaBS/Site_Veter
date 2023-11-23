@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.surback{
+    background-color: rgba(255, 255, 255, 0.422);
+}
+
+/* --------------------------------------- */
+
+.contenu{
+    display: flex;
+    flex-direction: column;
+}
+.clipvideo{
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    height: fit-content;
+}
+
+#cc{
+    height: 40vh; /* vh = view height, permet de toujours la garder à 100% */
+    display: flex; /* Rend les items flexibles */
+    flex-direction: column; /* Afficher en colonne */
+    justify-content: center; /* Placer le texte au milieu de l'élement parent */
+    align-items: center; /* Placer le texte au milieu de l'axe de x */
+    text-align: center; /* Placer le texte au centre, pas utile nécessaire dans ce cas de figure */
+}
+
+#cc h1{
+    color: rgb(89, 137, 177);
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times';
+    font-style: italic;
+    font-size: 80px;
+}
+
+#cc p{
+    font-size: 20px;
+    color: white;
+}
+
+#cc .button{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(86, 148, 67);
+    border: 2px solid rgb(86, 148, 67);
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+#cc .button:hover{
+    background: rgb(86, 148, 67);
+    color: white;
+}
+
+
+
+/* Contenu */
+
+.pp{
+    /* text-align: justify; */
+    margin-bottom: 50px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    margin-top: 16.5%;
+}
+
+.pp h1{
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times';
+    font-size: 25px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+.pp-equipe img{
+    width: 300px;
+    height: 180px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+.pp img:hover{
+    box-shadow: 2px 2px 2px black;
+}
+
+
+.btn-missions{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(86, 148, 67);
+    border: 2px solid rgb(86, 148, 67);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn-missions:hover,
+.btn-contact:hover,
+.serv a:hover{
+    background: rgb(86, 148, 67);
+    color: white;
+}
+
+
+.serv{
+    display: flex;
+}
+
+.serv a{
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(86, 148, 67);
+    border: 2px solid rgb(86, 148, 67);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+
+.btn-contact{
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(86, 148, 67);
+    border: 2px solid rgb(86, 148, 67);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+
+#centrer{
+    margin-left: 40px;
+}
+

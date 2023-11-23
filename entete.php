@@ -11,31 +11,35 @@
 <body>
 
   <header>
-    <h2 id="titre"><a href="index.php">CaninCâlin</a></h2>
+  <div>
+      <a href="index.php"><img src="Ressources/LOGO.png" alt=""  id="logo"></a>
+    </div>
 
     <nav>
-      <ul>
-        <li><a href="index.php">Accueil</a></li>
-        <li>
-          <a href="#">Qui sommes-nous ?</a>
-          <ul>
-            <li><a href="#">Nos missions</a></li>
-            <li><a href="#">Notre équipe</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#">Nos services</a>
-          <ul>
-            <li><a href="#">Consultations</a></li>
-            <li><a href="#">Vaccination</a></li>
-            <li><a href="#">Chirurgie</a></li>
-            <li><a href="#">Hospitalisation</a></li>
-            <li><a href="#">Imagerie</a></li>
-            <li><a href="#">Vente de médicaments</a></li>
-          </ul>
-        </li>
-        <li><a href="contact.php">Nous contacter</a></li>
-      </ul>
+      <div id="menu">
+        <ul>
+          <li><a href="index.php">Accueil</a></li>
+          <li>
+            <a href="#">Qui sommes-nous ?</a>
+            <ul>
+              <li><a href="#">Nos missions</a></li>
+              <li><a href="#">Notre équipe</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Nos services</a>
+            <ul>
+              <li><a href="#">Consultations</a></li>
+              <li><a href="#">Vaccination</a></li>
+              <li><a href="#">Chirurgie</a></li>
+              <li><a href="#">Hospitalisation</a></li>
+              <li><a href="#">Imagerie</a></li>
+              <li><a href="#">Vente de médicaments</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.php">Nous contacter</a></li>
+        </ul>
+      </div>
     </nav>
 
     <div class="recherche">

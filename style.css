@@ -10,7 +10,7 @@ body{
 }
 
 .surback{
-    background-color: rgba(255, 255, 255, 0.422);
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* --------------------------------------- */
@@ -26,7 +26,7 @@ body{
     height: fit-content;
 }
 
-#cc{
+#CC{
     height: 40vh; /* vh = view height, permet de toujours la garder à 100% */
     display: flex; /* Rend les items flexibles */
     flex-direction: column; /* Afficher en colonne */
@@ -35,31 +35,32 @@ body{
     text-align: center; /* Placer le texte au centre, pas utile nécessaire dans ce cas de figure */
 }
 
-#cc h1{
-    color: rgb(89, 137, 177);
+#CC h1{
+    color: #2B7BB9;
     font-family: 'Cambria', 'Cochin', 'Georgia', 'Times';
     font-style: italic;
     font-size: 80px;
 }
 
-#cc p{
+#CC p{
     font-size: 20px;
     color: white;
 }
 
-#cc .button{
+#CC .button{
     font-size: 20px;
     text-decoration: none;
-    color: rgb(86, 148, 67);
-    border: 2px solid rgb(86, 148, 67);
+    color: #2B7BB9;
+    border: 2px solid #2B7BB9;
     border-radius: 20px;
     padding: 10px 20px;
     margin-top: 1%;
     font-weight: bold;
 }
 
-#cc .button:hover{
-    background: rgb(86, 148, 67);
+#CC .button:hover{
+    background: #1C6399;
+    border: 2px solid #1C6399;
     color: white;
 }
 

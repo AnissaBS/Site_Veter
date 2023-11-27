@@ -12,7 +12,7 @@
 
   <header>
   <div>
-      <a href="index.php"><img src="Ressources/LOGO.png" alt=""  id="logo"></a>
+      <a href="index.php"><img src="Ressources/logo.png" alt=""  id="logo"></a>
     </div>
 
     <nav>

@@ -21,7 +21,7 @@
             include_once('entete.php');
         ?>
 
-            <div id="cc">
+            <div id="CC">
                 <h1>CaninCâlin</h1>
                 <p>Bienvenue chez votre vétérinaire préféré.</p>
                 <a href="#categ" class="button">En savoir plus</a>

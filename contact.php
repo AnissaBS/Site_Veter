@@ -13,7 +13,7 @@
 ?>
     
 <div class="divform">
-<h1>Contactez notre équipe G_veter</h1>
+<h1>Contactez notre équipe CaninCâlin</h1>
     <form action="#" name="monFormulaire "method="post">
 
         <label for="nom">Nom, prénom</label>

@@ -3,27 +3,30 @@ body {
 }
 
 header {
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-family: 'Cambria', 'Cochin', 'Times', 'Times New Roman', serif;
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;  
   text-decoration: none;
-  margin: 3% 8%;
+  margin: 4% 6% 0;
   border-radius: 20px;
   position: relative; /* Ajout de la position relative */
 }
 
+
 #logo {
-  width: 820px;
+  width: 200px; 
   position: absolute;
   top: 50%; /* Positionne le logo au milieu de l'élément parent (header) */
-  transform: translateY(-50%) translateX(-40%); /* Ajuste verticalement puis horizontalement en fonction de la hauteur du logo */
+  transform: translateY(-50%) translateX(10%); /* Ajuste verticalement puis horizontalement en fonction de la hauteur du logo */
 }
 
 nav {
   display: flex;
-  margin-left: 12%;
+  margin-right: 28%;
 }
 
 a {
@@ -34,15 +37,19 @@ a {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   display: flex;
 }
 
 li {
   color: white;
-  margin-right: 35px;
+  margin-right: 60px;
   position: relative;
   text-decoration: none;
+}
+
+li:last-child {
+  margin-right: -90px;
 }
 
 li:hover ul {
@@ -50,18 +57,60 @@ li:hover ul {
   border-radius: 10px;
 }
 
+#entt1 {
+  color: rgb(70, 157, 155);
+}
+#entt2 {
+  color: rgb(45, 107, 140);
+}
+#menu > ul > li:nth-child(2) ul li:hover a {
+  /* Styles pour les liens <a> des sous-catégories du premier menu déroulant au survol */
+  color: rgb(45, 107, 140);
+}
+#entt3 {
+  color: #2B7BB9;
+}
+#menu > ul > li:nth-child(3) ul li:hover a {
+  /* Styles pour les liens <a> des sous-catégories du premier menu déroulant au survol */
+  color: #2B7BB9;
+}
+#entt4 {
+  color: rgb(61, 154, 114);
+}
+#entt5 {
+  color : #1b69a5;
+}
+
+ul ul a {
+  color: rgb(110, 110, 110);
+}
+
 ul ul {
   display: none;
   position: absolute;
   top: 100%;
-  left: 0;
-  background-color: rgb(255, 255, 255);
+  left: -4%;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 ul ul li {
   display: block;
   width: 150px;
+  padding: 3%;
 }
+
+ul ul li {
+  color: white;
+}
+
+ul ul li:hover{
+  background-color: rgba(110, 110, 110, 0.25);
+  border-radius: 10px;
+  width: 94%;
+}
+
+
+/* ------ Partie Recherche + bouton Entrée de l'entête ------
 
 .recherche {
   display: flex;
@@ -90,5 +139,7 @@ input[type="submit"]:hover {
   background-color: #1C6399;
   color: white;
 }
+
+*/
 
 

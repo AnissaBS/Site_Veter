@@ -11,59 +11,31 @@ body {
     color: white;
 }
 
-
-.btn-outline-success{
-    color: rgb(86, 148, 67);
-    border: 2px solid rgb(86, 148, 67);
-    /* width: 90px;
-    height: 45px; */
-}
-
-.btn-outline-success:hover{
-    color: rgb(255, 255, 255);
-    border: 1px solid rgb(86, 148, 67);
-    background-color: rgb(86, 148, 67);
-    font-weight: bold;
-}
-
-/* .d-flex{
-
-} */
-
-.navbar-brand{
-    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times';
-    color: rgb(109, 177, 89);
-    font-size: 26px;
-    margin-bottom: 10px;
-}
-
-.navbar-brand:hover{
-    color: rgb(109, 177, 89);
-    font-size: 26px;
-    font-weight: bold;
-}
-
  /* Mon formulaire de contact */
 
 .divform {
     max-width: 700px;
-    margin: 6% auto;
-    padding: 20px;
+    margin: auto;
+}
+
+.divform h1 {
+    margin-top: 8%;
 }
 
 h1 {
     font-family: 'Cambria', 'Cochin', 'Georgia', 'Times';
-    font-size: 37px;
+    font-size: 34px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .divform form {
     background-color: rgba(114, 114, 114, 0.477);
-    padding: 20px;
+    padding: 30px;
     border-radius: 10px;
-    font-size: 18px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.123); */
+    font-size: 17px;
+    box-shadow: 1px 2px 5px black;
+    margin-bottom: 15%;
 }
 
 .divform label, input, textarea {
@@ -74,18 +46,19 @@ h1 {
 
 .divform input, textarea {
     width: 95%;
-    padding: 4px;
+    padding: 6px;
     border: none;
     border-radius: 5px;
 }
 
 .qui{
     width: 280px;
-    height: 30px;
+    height: 25px;
     margin-bottom: 10px;
     border: none;
     border-radius: 5px;
     margin-left: 15px;
+    background-color: rgb(239, 239, 239);
 }
 
 #message{
@@ -93,14 +66,13 @@ h1 {
 }
 
 .sub {
-    background-color: rgb(109, 177, 89);
+    background-color: #2B7BB9;
     color: white;
     padding: 15px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 60px;
-    margin-top: 20px;
+    margin: 20px auto;
     font-size: 18px;
     font-weight: bold;
     width: 500px !important; 
@@ -108,5 +80,5 @@ h1 {
 }
 
 .sub:hover {
-    background-color: rgb(86, 148, 67);
+    background-color: #1C6399;
 }

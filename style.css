@@ -13,6 +13,10 @@ body{
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+.entete{
+    margin-top: 5%;
+}
+
 /* --------------------------------------- */
 
 .contenu{
@@ -33,6 +37,7 @@ body{
     justify-content: center; /* Placer le texte au milieu de l'élement parent */
     align-items: center; /* Placer le texte au milieu de l'axe de x */
     text-align: center; /* Placer le texte au centre, pas utile nécessaire dans ce cas de figure */
+    margin-top: 8%;
 }
 
 #CC h1{
@@ -43,33 +48,76 @@ body{
 }
 
 #CC p{
-    font-size: 20px;
+    font-size: 22px;
     color: white;
 }
 
-#CC .button{
+#CC .button {
     font-size: 20px;
     text-decoration: none;
     color: #2B7BB9;
     border: 2px solid #2B7BB9;
     border-radius: 20px;
     padding: 10px 20px;
-    margin-top: 1%;
+    margin-top: 2%;
     font-weight: bold;
 }
 
-#CC .button:hover{
+#CC .button:hover {
     background: #1C6399;
     border: 2px solid #1C6399;
     color: white;
 }
 
+/*-------------------- LES SERVICES --------------------*/
+table label {
+    text-align: center;
+}
 
+
+.QUI {
+    background-color: rgba(182, 182, 182, 0.103);
+    border-radius: 100px;
+    box-shadow: 2px 1px 1px black;
+    width: 90%;
+    height: 500px;
+    margin-top: 8%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 25px;
+    color: #1C6399;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#serv a {
+    display: block;
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    height: 100px; /* Ajustez la hauteur selon vos besoins */
+    text-align: center;
+    line-height: 95px; /* Assurez-vous que la hauteur de ligne est égale à la hauteur du bouton pour centrer le texte verticalement */
+    text-decoration: none;
+    color: #fff; /* Couleur du texte */
+    background-color: #a6a6a6; /* Couleur de fond */
+    border-radius: 5px;
+    margin: 30px; /* Espacement entre les boutons */
+}
+
+  
+#serv img {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 /* Contenu */
-
+/*
 .pp{
-    /* text-align: justify; */
+    /* text-align: justify; DEJA COMMENTE *//*
     margin-bottom: 50px;
     height: fit-content;
     display: flex;
@@ -133,6 +181,11 @@ body{
 }
 
 
+#centrer{
+    margin-left: 40px;
+}
+
+
 .btn-contact{
     width: 200px;
     height: 80px;
@@ -144,10 +197,6 @@ body{
     padding: 10px 20px;
     font-weight: bold;
     margin-left: 60px;
-}
+} */
 
-
-#centrer{
-    margin-left: 40px;
-}
 

@@ -19,9 +19,9 @@
         <label for="nom">Nom, prénom</label>
         <input type="text" id="nom" name="nom" required>
 
-        <label for="identité">Qui êtes-vous ?</label>
+        <label for="identité">Qui êtes-vous ? </label>
         <select name="" class="qui">
-            <option value="" disabled>Choisir</option>
+            <option value="" selected disabled>Sélectionner</option>
             <option value="">Un(e) de nos compagnons</option>
             <option value="">Un(e) nouveau/elle compagnon</option>
             <option value="">Un de nos partenaires</option>
@@ -34,7 +34,7 @@
         <label for="telephone">Numéro de téléphone</label>
         <input type="text" id="telephone" name="telephone" required>
 
-        <label for="date">Date souhaitée :</label>
+        <label for="date">Date de l'incident s'il y a eu :</label>
         <input type="date" id="date" name="date" required>
 
         <label for="message">Un message à nous adresser ? </label>

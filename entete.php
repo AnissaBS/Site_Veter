@@ -36,7 +36,7 @@
               <li><a href="#">Chirurgie</a></li>
               <li><a href="#">Hospitalisation</a></li>
               <li><a href="#">Imagerie Médicale</a></li>
-              <li><a href="#">Vente de médicaments</a></li>
+              <li id="vente"><a href="#">Vente de médicaments</a></li>
             </ul>
           </li>
           <li><a href="contact.php" id="entt4">Infos pratiques</a></li>

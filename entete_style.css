@@ -18,7 +18,7 @@ header {
 
 
 #logo {
-  width: 200px; 
+  width: 180px; 
   position: absolute;
   top: 50%; /* Positionne le logo au milieu de l'élément parent (header) */
   transform: translateY(-50%) translateX(10%); /* Ajuste verticalement puis horizontalement en fonction de la hauteur du logo */
@@ -35,7 +35,7 @@ a {
 }
 
 ul {
-  list-style-type: none;
+  list-style: none;
   margin: 0;
   padding: 5px;
   display: flex;
@@ -55,6 +55,15 @@ li:last-child {
 li:hover ul {
   display: block;
   border-radius: 10px;
+  /* border: 1px solid red;
+  width: 500px; */
+}
+
+#vente {
+  width:200px;
+  /* display: inline; */
+  /* border: 1px solid red; */
+  padding: 5px;
 }
 
 #entt1 {
@@ -70,9 +79,11 @@ li:hover ul {
 #entt3 {
   color: #2B7BB9;
 }
+
 #menu > ul > li:nth-child(3) ul li:hover a {
   /* Styles pour les liens <a> des sous-catégories du premier menu déroulant au survol */
   color: #2B7BB9;
+  /* width: 95%; */
 }
 #entt4 {
   color: rgb(61, 154, 114);

@@ -7,18 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-        
+
 <footer>
+
     <div class="contenu-footer">
+        <div class="footLogo">
+            <img src="Ressources/logo.png" alt="">
+        </div>
+
         <div class="bloc footer-services">
             <h3>Nos services</h3>
             <ul class="liste-services">
-                <li><a href="#">Consultations</a></li>
-                <li><a href="#">Vaccination</a></li>
-                <li><a href="#">Chirurgie</a></li>
-                <li><a href="#">Hospitalisation</a></li>
-                <li><a href="#">Imagerie</a></li>
-                <li><a href="#">Ventes</a></li>
+                <li><a href="#">» Consultations</a></li>
+                <li><a href="#">» Vaccination</a></li>
+                <li><a href="#">» Chirurgie</a></li>
+                <li><a href="#">» Hospitalisation</a></li>
+                <li><a href="#">» Imagerie Médicale</a></li>
+                <li><a href="#">» Vente de médicaments</a></li>
             </ul>
         </div>
         <div class="bloc footer-contact">
@@ -30,13 +35,13 @@
         <div class="bloc footer-horaires">
             <h3>Nos horaires</h3>
             <ul class="liste-horaires">
-                <li>✔️&emsp; Lun 9h - 18h</li>
-                <li>✔️&emsp; Mar 9h - 18h</li>
-                <li>✔️&emsp; Mer 10h - 18h</li>
-                <li>✔️&emsp; Jeu 9h - 18h</li>
-                <li>✔️&emsp; Ven 9h - 18h</li>
-                <li>✔️&emsp; Sam 10h - 15h</li>
-                <li>❌&emsp; Dim Fermé</li>
+                <li class="jours">🗸&emsp; Lun 9h - 18h</li>
+                <li class="jours">🗸&emsp; Mar 9h - 18h</li>
+                <li class="jours">🗸&emsp; Mer 10h - 18h</li>
+                <li class="jours">🗸&emsp; Jeu 9h - 18h</li>
+                <li class="jours">🗸&emsp; Ven 9h - 18h</li>
+                <li class="jours">🗸&emsp; Sam 10h - 15h</li>
+                <li class="jours">🗙&emsp;Dim Fermé</li>
                 <li>&emsp;</li>
                 <li class="garde">N'hésitez pas à nous contacter pour obtenir davantage d'informations concernant les heures et lieux de garde.</li>
             </ul>
@@ -47,11 +52,12 @@
                 <li><a href="#"><img src="facebook.png" alt="">&ensp; Facebook</a></li>
                 <li><a href="#"><img src="instagram_2111463.png" alt="">&ensp; Instagram</a></li>
                 <li><a href="#"><img src="twitter_4494477.png" alt="">&ensp; Twitter</a></li>
-                <li><a href="#"><img src="youtube_4494485.png" alt="">&ensp; YouTube</a></li>
+                <!-- <li><a href="#"><img src="youtube_4494485.png" alt="">&ensp; YouTube</a></li> -->
             </ul>
         </div>
     </div>
-    </footer>
+</footer>
+
     
     </body>
     </html>

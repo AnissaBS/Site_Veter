@@ -1,126 +1,153 @@
-/* body{
-} */
+body {
+    margin: 0;
+}
 
-footer{
-    flex-shrink: 0;     /* Propriété qui permet d'utiliser l'espace restant par rapport à ce qu'il y a au dessus. Si la taille de l'ensemble des éléments flexibles est supérieure à la taille du conteneur, les éléments seront comprimés */
-    border-top: 1px dashed rgb(56, 99, 42);
-    background: rgb(86, 148, 67);
+footer {
+    flex-shrink: 0;
+    background-color: #1C6399;
     color: #ffffff;
-    /* height: 30vh; */
 }
 
-img{
-    width: 20px;
+.footLogo {
+    margin-right: 10%;
 }
 
-.contenu-footer{
-    width: 1200px;
-    margin: 0 auto;
+.footLogo img {
+    width: 250px;
+}
+
+.contenu-footer {
+    width: 1400px;
+    margin: 0 8%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
-    padding: 50px 0 100px;
+    padding: 60px 0 0;
+    flex-wrap: nowrap; /* Empêche le passage à la ligne */
 }
 
-.bloc{
-    width: 25%;
-    margin: 0 30px;
+.bloc {
+    width: 48%;
+    margin-bottom: 10px;
 }
 
+.footer-services,
+.footer-contact,
+.footer-horaires,
+.footer-medias {
+    background-color: #1C6399;
+    padding: 20px;
+    width: 48%;
+}
+
+/* Ajout des styles pour chaque bloc */
+.footer-contact,
+.footer-horaires,
+.footer-medias {
+    background-color: #1C6399;
+    padding: 20px;
+}
 
 /* Les contacts */
 .footer-contact h3,
 .footer-services h3,
 .footer-horaires h3,
-.footer-medias h3{
-    font-size: 18px;
+.footer-medias h3 {
+    font-size: 16px;
     padding-bottom: 20px;
     text-decoration: underline;
 }
 
-.footer-contact p{
-    font-size: 16px;
+.footer-contact p {
+    font-size: 14px;
     padding: 0;
 }
-
 
 /* Les services */
-.liste-services,
-.liste-horaires,
-.liste-medias{
-    font-size: 16px;
+.liste-services {
+    font-size: 14px;
     list-style-type: none;
     padding: 0;
+    flex-direction: column;
 }
 
-.liste-services li{
+.liste-services li {
     padding: 2px 0;
-    list-style-type:circle;
-    margin-left: 15px;
+    list-style-type: none;
 }
 
-.liste-services a{
+.liste-services a {
     text-decoration: none;
-    color: rgb(192, 212, 186);
+    color: rgba(255, 255, 255, 0.7);
 }
 
-.liste-services a:hover{
+.liste-services a:hover {
     text-decoration: none;
-    color: rgb(224, 239, 220);
+    color: rgb(255, 255, 255);
 }
-/*  Les horaires */
-.garde{
-    font-size: 12px;
+
+/* Les horaires */
+.liste-horaires {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+}
+
+.liste-horaires li {
+    padding: 2px 0;
+    list-style-type: none;
+}
+
+/* Horaires divisés en deux colonnes */
+.liste-horaires .jours {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.liste-horaires .jours li {
+    width: 50%;
 }
 
 /* Les médias */
 .liste-medias {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
     position: relative;
     right: 10px;
+    flex-direction: column;
 }
 
-.liste-medias img{
+.liste-medias img {
     width: 25px;
     margin: 10px 10px;
 }
 
-.liste-medias a{
+.liste-medias a {
     text-decoration: none;
-    color: rgb(192, 212, 186);
+    color: rgba(255, 255, 255, 0.7);
     display: flex;
     align-items: center;
     font-size: 16px;
 }
 
+.liste-medias a:hover {
+    color: rgba(255, 255, 255);
+}
+
 /* Media queries */
-@media screen and (max-width:1300px){
-    .contenu-footer{
-        width: 700px;
-        flex-wrap: wrap;
+@media screen and (max-width: 800px) {
+    .bloc {
+        width: 100%;
+        margin-bottom: 30px;
     }
-    .bloc{
-        width: 40%;
-        margin: 0 0;
-    }
-    .bloc:nth-child(1),
-    .bloc:nth-child(2){         /* Permet de sélectionner des enfants dans une liste */
-        margin-bottom: 50px;
+
+    .footer-contact,
+    .footer-horaires,
+    .footer-medias {
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
 
-@media screen and (max-width:800px){
-    .contenu-footer{
-        width: 320px;
-    }
-    .bloc{
-        width: 300px;
-        margin: 30px;
-    }
-    .bloc:nth-child(1),
-    .bloc:nth-child(2){
-        margin-bottom: 30px;
-    }
-    .bloc:nth-child(1){
-        margin-top: 0;
-    }
-}

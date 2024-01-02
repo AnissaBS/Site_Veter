@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: #1C6399;
+    color: #ffffff;
+}
+
+/* img {
+    width: 20px;
+} */
+
+.footLogo {
+
+}
+
+.footLogo img {
+    width: 180px;
+}
+
+.contenu-footer {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 0 0;
+    flex-wrap: nowrap; /* Empêche le passage à la ligne */
+}
+
+.bloc {
+    width: 48%;
+    margin-bottom: 30px;
+}
+
+.footer-services,
+.footer-contact,
+.footer-horaires,
+.footer-medias {
+    background-color: #1C6399;
+    padding: 20px;
+    width: 48%;
+}
+
+/* Ajout des styles pour chaque bloc */
+.footer-contact,
+.footer-horaires,
+.footer-medias {
+    background-color: #1C6399;
+    padding: 20px;
+}
+
+/* Les contacts */
+.footer-contact h3,
+.footer-services h3,
+.footer-horaires h3,
+.footer-medias h3 {
+    font-size: 16px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    padding: 0;
+}
+
+/* Les services */
+.liste-services {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+}
+
+.liste-services li {
+    padding: 2px 0;
+    list-style-type: none;
+}
+
+.liste-services a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.liste-services a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Les horaires */
+.liste-horaires {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    flex-direction: column;
+}
+
+.liste-horaires li {
+    padding: 2px 0;
+    list-style-type: none;
+}
+
+/* Les médias */
+.liste-medias {
+    font-size: 14px;
+    list-style-type: none;
+    padding: 0;
+    position: relative;
+    right: 10px;
+    flex-direction: column;
+}
+
+.liste-medias img {
+    width: 25px;
+    margin: 10px 10px;
+}
+
+.liste-medias a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.liste-medias a:hover {
+    color: rgba(255, 255, 255);
+}
+
+/* Media queries */
+@media screen and (max-width: 800px) {
+    .bloc {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .footer-contact,
+    .footer-horaires,
+    .footer-medias {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

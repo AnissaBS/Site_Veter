@@ -18,7 +18,7 @@ header {
 
 
 #logo {
-  width: 180px; 
+  width: 210px; 
   position: absolute;
   top: 50%; /* Positionne le logo au milieu de l'élément parent (header) */
   transform: translateY(-50%) translateX(10%); /* Ajuste verticalement puis horizontalement en fonction de la hauteur du logo */
